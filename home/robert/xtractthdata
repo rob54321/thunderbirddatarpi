@@ -1,0 +1,4 @@
+#!/bin/bash
+# extract thunderbirddata.tar.xz and remove config.tar.xz
+# must be run in /home/robert/
+tar -C /home/robert --xz -xvf thunderbirddatarpi.tar.xz

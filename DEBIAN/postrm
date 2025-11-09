@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+#thunderbireddata::postrm
+# Only remove files if we are removing not upgrading
+test $1 = "remove" || exit 0;
+
+# remove all thunderbird data
+# prompt
+echo "Remove all thunderbird data in /home/robert/.thunderbird? default (n): (y/n)"
+read answer
+test "${answer}" = "y" && rm -rvf /home/robert/.thunderbird;
+
+# set result to true
+exit 0;

@@ -1,0 +1,4 @@
+#!/bin/bash
+# script to build thunderbirddata.tar.xz after an update
+# must be run in /home/robert
+tar --xz -C /home/robert -cvf thunderbirddatarpi.tar.xz .thunderbird

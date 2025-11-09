@@ -1,0 +1,8 @@
+Package: thunderbirddatarpi
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Robert Key robertkey021@gmail.com
+Section: myown
+Depends: xz-utils
+Priority: optional
+Description: Thunderbird settings. Mail is kept in a separate directory ${home}/.thunderbirdMail
